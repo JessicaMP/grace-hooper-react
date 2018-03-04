@@ -6,7 +6,6 @@ header {
 }
 
 nav {
-  border: 2px solid red;
   position: relative;
 }
 
@@ -82,8 +81,8 @@ li a {
 
 /*Nav-left*/
 .navLeft {
-  border: 3px solid orange;
   width: 15%;
+  display: inline-block;
 }
 
 .wiki-img {
@@ -112,4 +111,50 @@ li a {
 .navLeft hr {
   width: 80%;
   margin-right: 3rem;
+}
+
+/*TITLE*/
+.titlePage {
+  width: 85%;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  top: 5rem;
+}
+
+.titlePage h1 {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+.titlePage hr {
+  margin: 0;
+  margin-right: 1.5rem;
+}
+
+.titlePage p {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.titlePageBox {
+  padding: 0 1rem;
+}
+
+/*Main*/
+.paragraph {
+  position: absolute;
+  left: 12.5;
+  top: 11rem;
+  width: 57%;
+  display: inline-block;
+}
+
+.paragraph p {
+  padding: 1rem;
+  margin: 0 1rem;
+  padding: 0.3rem 0;
+  font-size: 0.875em;
+  text-align: justify;
+  line-height: 1.4;
 }

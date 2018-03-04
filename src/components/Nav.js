@@ -4,7 +4,6 @@ import '../App.css';
 
 class Nav extends Component {
     render() {
-
         const mainPage = ['Main page', 'Contents', 'Featured content', 'Current events', 'Random article', 'Donate to Wikipedia', 'Wikipedia store'];
         const interaction = ['Help', 'About Wikipedia', 'Community portal', 'Recent changes', 'Contact page'];
         const tools = ['What links here', 'Related changes', 'Upload file', 'Special pages', 'Permanent link', 'Page information', 'Wikidata item', 'Cite this page'];
