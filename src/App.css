@@ -1,28 +1,115 @@
-.App {
-  text-align: center;
+header {
+  position: absolute;
+  width: 85%;
+  right: 0;
+  display: inline-block;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+nav {
+  border: 2px solid red;
+  position: relative;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+nav ul {
+ list-style: none;
+ position: absolute;
+  right: 0;
+  width: 38%;
 }
 
-.App-title {
-  font-size: 1.5em;
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 0.4rem;
+  text-align: right;
 }
 
-.App-intro {
-  font-size: large;
+li a {
+  text-decoration-line: none;
+  font-size: 0.85em;
+  color: #0645ad;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.boxHeader {
+  width: 100%;
+  display: block;
+  position: relative;
+  top: 2rem;
+}
+
+.uls {
+  width: 70%;
+  display: inline-block;
+  position: relative;
+}
+
+.boxHeader ul {
+  padding: 0;
+  display: inline-block;
+}
+
+.boxHeader ul li {
+  padding: 0.5rem;
+  border: 1px solid #bef;
+  background: linear-gradient(white, aliceblue);
+}
+
+.ulright {
+  position: absolute;
+  right: 0;
+}
+
+.right {
+  width: 29%;
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+
+.right input {
+  width: 90%;
+}
+
+.right button {
+  background-color: transparent;
+  border: none;
+  position: relative;
+  right: 1.7rem;
+}
+
+.svg-inline--fa.fa-w-16 {
+  color: #888;
+}
+
+/*Nav-left*/
+.navLeft {
+  border: 3px solid orange;
+  width: 15%;
+}
+
+.wiki-img {
+  width: 100%;
+}
+
+.navLeft ul {
+  display: block;
+  position: relative;
+  width: auto;
+}
+
+.navLeft li {
+  padding: 0.05em 0;
+}
+
+.navLeft a, .navLeft p {
+  font-size: 0.75em;
+}
+
+.navLeft p {
+  margin: 0;
+  color: #444;
+}
+
+.navLeft hr {
+  width: 80%;
+  margin-right: 3rem;
 }
