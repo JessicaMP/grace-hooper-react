@@ -13,4 +13,4 @@ Replicar la pagina web de Grace Hooper.
 * Babel
 * Font Awesome
 
-![Sin titulo](src/components/assets/docs/full-screen.PNG)
+![Sin titulo](src/components/assets/docs/full-screen.png)
