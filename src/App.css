@@ -13,8 +13,8 @@ nav {
 nav ul {
   list-style: none;
   position: absolute;
-  top: 0.4rem;
   right: 0;
+  top: -0.6rem;
   margin-right: 1rem;
 }
 
@@ -28,7 +28,6 @@ header ul li {
 li a {
   text-decoration-line: none;
   font-size: 0.75em;
-  color: #0645ad;
 }
 
 .boxHeader {
@@ -60,7 +59,6 @@ margin-bottom: 0;
   background: linear-gradient(white, aliceblue);
   border-top: none;
   border-bottom: none;
-
 }
 
 .ulright {
@@ -217,6 +215,7 @@ tr {
   line-height: 1.5em;
 }
 
-tr a {
+a {
   text-decoration-line: none;
+  color: #0645ad;
 }
