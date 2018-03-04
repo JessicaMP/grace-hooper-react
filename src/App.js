@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Title from './components/Title';
 import Main from './components/Main';
+import Aside from './components/Aside';
 
 import './App.css';
 
@@ -14,7 +15,7 @@ class App extends Component {
       <Nav/>
       <Title/>
       <Main/>
-      {/* <Aside/> */}
+      <Aside/>
       </div>
     );
   }
