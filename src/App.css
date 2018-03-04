@@ -11,10 +11,11 @@ nav {
 }
 
 nav ul {
- list-style: none;
- position: absolute;
+  list-style: none;
+  position: absolute;
+  top: 0.4rem;
   right: 0;
-  width: 38%;
+  margin-right: 1rem;
 }
 
 header ul li {
@@ -24,9 +25,9 @@ header ul li {
   text-align: right;
 }
 
-li a{
+li a {
   text-decoration-line: none;
-  font-size: 0.85em;
+  font-size: 0.75em;
   color: #0645ad;
 }
 
@@ -74,18 +75,20 @@ margin-bottom: 0;
 }
 
 .right input {
-  width: 90%;
+  width: 93%;
 }
 
 .right button {
   background-color: transparent;
   border: none;
-  position: relative;
+  position: absolute;
   right: 1.7rem;
 }
 
 .svg-inline--fa.fa-w-16 {
   color: #888;
+  font-size: 0.85em;
+
 }
 
 /*Nav-left*/
